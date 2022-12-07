@@ -81,6 +81,7 @@ button, a {
     background-color: #f9f7ff00;
     border-width: 0px;
     cursor: pointer;
+    overflow: auto;
 }
 list:hover h1 {
     display: none;
