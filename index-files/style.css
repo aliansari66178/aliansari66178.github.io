@@ -69,7 +69,8 @@ ul {
     background-image: url(img/bg2.png);
     border-radius: 20px 20px 0px;
     background-size: cover;
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 button, a {
     display: none;
