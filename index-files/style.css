@@ -87,6 +87,7 @@ list:hover h1 {
 }
 a {
     display: block;
+    text-decoration: none;
 }
 list:hover ul, list:hover button {
     display: block;
