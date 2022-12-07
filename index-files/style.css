@@ -85,6 +85,9 @@ button, a {
 list:hover h1 {
     display: none;
 }
+a {
+    display: block;
+}
 list:hover ul, list:hover button {
     display: block;
 }
