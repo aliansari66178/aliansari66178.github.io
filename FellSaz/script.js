@@ -92,8 +92,6 @@ function mo (input) {
             return "آفرین"
         } else if (input == "شنی") {
             return "شنو"
-        } else if (input == "ایستا") {
-            return "ایست"
         } else if (input == "ز") {
             return "زن"
         } else if (input == "کر") {
@@ -117,6 +115,8 @@ function mo (input) {
         } else if (input.substr(-1, 1) == "ر") {
             return input
         } else if (input.substr(-1, 1) == "ی") {
+            return input.substr(0, (input.length - 1))
+        } else if (input.substr(-1, 1) == "ا") {
             return input.substr(0, (input.length - 1))
         } else if (input.substr(-1, 1) == "ن") {
             return input
