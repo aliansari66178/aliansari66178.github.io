@@ -92,6 +92,8 @@ function mo (input) {
             return "آفرین"
         } else if (input == "شنی") {
             return "شنو"
+        } else if (input == "ایستا") {
+            return "ایست"
         } else if (input == "ز") {
             return "زن"
         } else if (input == "کر") {
