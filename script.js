@@ -154,7 +154,7 @@ function se_fa_func () {
     se_fa_var + "ش گر" + " / " +
     bon_ma + "ار"  + " / " +
     bon_ma + "گار"  + " / " +
-    bon_ma + "گر"  + " / "
+    bon_ma + "گر"
     )
    
 }
